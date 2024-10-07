@@ -1,1 +1,2 @@
 # cryptography-csc768
+Theoretical foundations of modern (post-1980s) cryptography. The emphasis will be on formal definitions, precise assumptions, and rigorous proofs of security of various cryptographic primitives. The topics and primitives include one-way functions, pseudo-random generators, pseudo-random and trapdoor permutations, computational security, cryptographic hash functions, private-key encryption, message authentication codes, public-key encryption, digital signatures, commitment schemes.
