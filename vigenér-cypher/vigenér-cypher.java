@@ -35,7 +35,7 @@ public class PecoraF_a1 {
 		try {
 			// I could have also done it assuming that E is the char more used in the English language
 			// assignment 1:
-			System.out.println("------------------------------------------------------------ASSIGNMENT 1------------------------------------------------------------");
+			System.out.println("-----------------------------------------------------------ASSIGNMENT 1-----------------------------------------------------------");
 	        double[] frequencyOfLettersCipherText = getFrequenciesOfLetters(CIPHER_TEXT);
 	        int bestShift = findBestShiftKey(frequencyOfLettersCipherText);
 	        String decryptedMessage = decrypt(CIPHER_TEXT, bestShift);
@@ -43,7 +43,7 @@ public class PecoraF_a1 {
 	        System.out.println("Decrypted Message: " + decryptedMessage);
 			
 			// assignment 2:
-	        System.out.println("------------------------------------------------------------ASSIGNMENT 2------------------------------------------------------------");
+	        System.out.println("-----------------------------------------------------------ASSIGNMENT 2-----------------------------------------------------------");
 	        
 	        // I want to first find the frequency of each letter in the string and store in a map
 	        Map<Character, Integer> frequencies = new HashMap<>();
@@ -66,7 +66,7 @@ public class PecoraF_a1 {
 	        	        
 	        // from tis we can notice that length 6 has a IC of 0.06397450126639916 which means that the key is 6
 	        // assignment 3
-	        System.out.println("------------------------------------------------------------ASSIGNMENT 3------------------------------------------------------------");
+	        System.out.println("-----------------------------------------------------------ASSIGNMENT 3-----------------------------------------------------------");
 	        // encrypting and printing the text that is inside plaintext.txt
 	        encryptBytewise("C:\\Users\\fabio\\Desktop\\cryptography-csc768\\assignment_1\\first_assignment\\src\\first_assignment\\plaintext", "C:\\Users\\fabio\\Desktop\\cryptography-csc768\\assignment_1\\first_assignment\\src\\first_assignment\\key.txt", "C:\\Users\\fabio\\Desktop\\cryptography-csc768\\assignment_1\\first_assignment\\src\\first_assignment\\ciphertext.txt");
 			System.out.println("Encrypted Ciphertext:");
